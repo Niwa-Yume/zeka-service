@@ -43,58 +43,45 @@ window.addEventListener('scroll', () => {
     </div>
   </section>
 
-  <section id="services" class="services-modern">
-    <div class="container">
-      <h2>Nos Services</h2>
-      <div class="services-grid">
-        <div class="service-item item-1">
-          <div class="service-icon">
-            <!-- SVG Carrelage -->
-          </div>
-          <h3>Carrelage</h3>
-          <p>Sols techniques pour zones industrielles.</p>
-        </div>
-        <div class="service-item item-2">
-          <div class="service-icon">
-            <!-- SVG Peinture -->
-          </div>
-          <h3>Peinture</h3>
-          <p>Revêtements anti-corrosion sur mesure.</p>
-        </div>
-        <div class="service-item item-3">
-          <div class="service-icon">
-            <!-- SVG Aménagement Extérieur -->
-          </div>
-          <h3>Extérieur</h3>
-          <p>Espaces sécurisés et esthétiques.</p>
-        </div>
-        <div class="service-item item-4">
-          <div class="service-icon">
-            <!-- SVG Déménagement -->
-          </div>
-          <h3>Déménagement</h3>
-          <p>Logistique sans interruption.</p>
-        </div>
-        <div class="service-item item-5">
-          <div class="service-icon">
-            <!-- SVG Électricité -->
-          </div>
-          <h3>Électricité</h3>
-          <p>Installations certifiées 24/7.</p>
-        </div>
-        <div class="service-item item-6">
-          <div class="service-icon">
-            <!-- SVG Plomberie -->
-          </div>
-          <h3>Plomberie</h3>
-          <p>Dépannage et maintenance rapide.</p>
-        </div>
-      </div>
-      <div class="services-cta">
-        <button class="btn-primary">Découvrir tous les services</button>
+
+  <div class="services-grid">
+    <div class="service-item item-1">
+      <div class="service-overlay">
+        <h3>Carrelage</h3>
+        <p>Pose soignée de carreaux céramique, grès et marbre pour sols et murs, adaptés à chaque espace.</p>
       </div>
     </div>
-  </section>
+    <div class="service-item item-2">
+      <div class="service-overlay">
+        <h3>Peinture</h3>
+        <p>Revêtements intérieurs et extérieurs anti-corrosion, finitions mates ou satinées, conseils colorimétrie.</p>
+      </div>
+    </div>
+    <div class="service-item item-3">
+      <div class="service-overlay">
+        <h3>Aménagement Extérieur</h3>
+        <p>Création de terrasses, allées et murets avec pierres naturelles, pavés et éléments paysagers.</p>
+      </div>
+    </div>
+    <div class="service-item item-4">
+      <div class="service-overlay">
+        <h3>Déménagement</h3>
+        <p>Organisation complète, emballage professionnel et transport sécurisé de vos biens en Suisse.</p>
+      </div>
+    </div>
+    <div class="service-item item-5">
+      <div class="service-overlay">
+        <h3>Électricité</h3>
+        <p>Installations conformes, éclairage LED, domotique et dépannage 24/7 par nos électriciens certifiés.</p>
+      </div>
+    </div>
+    <div class="service-item item-6">
+      <div class="service-overlay">
+        <h3>Plomberie</h3>
+        <p>Installation sanitaire, chauffage et détection de fuites, interventions rapides et garanties.</p>
+      </div>
+    </div>
+  </div>
 
   <section id="about" class="about">
     <div class="container">
@@ -253,7 +240,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+
 }
 
 /* Header */
@@ -363,10 +350,7 @@ body {
 
 
 /* Section Services */
-.services-modern {
-  padding: 4rem 1rem;
-  background: var(--light);
-}
+
 
 .services-modern h2 {
   text-align: center;
@@ -384,6 +368,8 @@ body {
     "a a c"
     "d e f";
   gap: 1.5rem;
+  padding: 0 4rem;
+
 }
 
 .item-1 { grid-area: a; }
@@ -410,17 +396,6 @@ body {
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
-.service-icon {
-  width: 3rem;
-  height: 3rem;
-  margin-bottom: 1rem;
-  fill: var(--yellow);
-}
-
-.services-cta {
-  text-align: center;
-  margin-top: 2.5rem;
-}
 
 .btn-primary {
   background: var(--yellow);
@@ -436,7 +411,46 @@ body {
 .btn-primary:hover {
   background: #e5b731;
 }
+.service-item {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  transition: transform 0.3s;
+}
+.service-item:hover {
+  transform: scale(1.03);
+}
 
+/* Surcouche pour le texte */
+.service-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5rem;
+  color: #fff;
+}
+.service-overlay h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+.service-overlay p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Images de fond par service */
+.item-1 { background-image: url('@/assets/carrelage.jpg'); }
+.item-2 { background-image: url('@/assets/peinture.jpg'); }
+.item-3 { background-image: url('@/assets/exterieur.jpg'); }
+.item-4 { background-image: url('@/assets/demenagement.jpg'); }
+.item-5 { background-image: url('@/assets/electricite.jpg'); }
+.item-6 { background-image: url('@/assets/plomberie.jpg'); }
 
 /* Section À propos */
 .about {
@@ -488,14 +502,14 @@ body {
 }
 .about-values li {
   position: relative;
-  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   margin-bottom: 0.5rem;
   color: var(--text);
 }
-.about-values li::before {
+.about-values li::after {
   content: "\2713";
   position: absolute;
-  left: 0;
+  padding-left: 2rem;
   color: var(--yellow);
 }
 .about-cta {
@@ -693,6 +707,34 @@ body {
   }
   .who-we-are p {
     font-size: 1rem;
+  }
+  .services-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: none;
+    padding: 0 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .services-grid {
+    padding: 0 0.5rem;
+    gap: 1rem;
+  }
+}
+/* iPhone */
+@media (max-width: 425px) {
+  .service-item {
+    min-height: 200px;
+  }
+  .service-overlay {
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .service-overlay h3 {
+    font-size: 1.2rem;
+  }
+  .service-overlay p {
+    font-size: 0.9rem;
+    line-height: 1.3;
   }
 }
 </style>
