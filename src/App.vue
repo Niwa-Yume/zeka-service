@@ -32,32 +32,66 @@ window.addEventListener('scroll', () => {
     </div>
   </section>
 
-  <section id="services" class="services">
-    <h2>Nos services</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Carrelage</h3>
-        <p>Pour la pose de votre carrelage, faites appel à Zeka service, nous intervenons dans toute la Suisse.</p>
+  <section id="who-we-are" class="who-we-are">
+    <div class="container">
+      <h2>Qui sommes-nous&nbsp;?</h2>
+      <p>
+        Zeka Services Sàrl est une entreprise familiale suisse fondée en 2010.
+        Nous proposons des services d’aménagement extérieur, de rénovation intérieur
+        et de déménagement, alliant expertise, proximité et qualité.
+      </p>
+    </div>
+  </section>
+
+  <section id="services" class="services-modern">
+    <div class="container">
+      <h2>Nos Services</h2>
+      <div class="services-grid">
+        <div class="service-item item-1">
+          <div class="service-icon">
+            <!-- SVG Carrelage -->
+          </div>
+          <h3>Carrelage</h3>
+          <p>Sols techniques pour zones industrielles.</p>
+        </div>
+        <div class="service-item item-2">
+          <div class="service-icon">
+            <!-- SVG Peinture -->
+          </div>
+          <h3>Peinture</h3>
+          <p>Revêtements anti-corrosion sur mesure.</p>
+        </div>
+        <div class="service-item item-3">
+          <div class="service-icon">
+            <!-- SVG Aménagement Extérieur -->
+          </div>
+          <h3>Extérieur</h3>
+          <p>Espaces sécurisés et esthétiques.</p>
+        </div>
+        <div class="service-item item-4">
+          <div class="service-icon">
+            <!-- SVG Déménagement -->
+          </div>
+          <h3>Déménagement</h3>
+          <p>Logistique sans interruption.</p>
+        </div>
+        <div class="service-item item-5">
+          <div class="service-icon">
+            <!-- SVG Électricité -->
+          </div>
+          <h3>Électricité</h3>
+          <p>Installations certifiées 24/7.</p>
+        </div>
+        <div class="service-item item-6">
+          <div class="service-icon">
+            <!-- SVG Plomberie -->
+          </div>
+          <h3>Plomberie</h3>
+          <p>Dépannage et maintenance rapide.</p>
+        </div>
       </div>
-      <div class="card">
-        <h3>Déménagement</h3>
-        <p>Zeka service prend en charge tous vos déménagements avec grand soin dans la Suisse.</p>
-      </div>
-      <div class="card">
-        <h3>Entretien de jardin</h3>
-        <p>Zeka service vous propose de tondre le gazon, tailler les arbustes, de l’arrosage…</p>
-      </div>
-      <div class="card">
-        <h3>Maçonnerie</h3>
-        <p>Pour tous vos travaux de maçonnerie, Zeka service met à votre service son savoir-faire.</p>
-      </div>
-      <div class="card">
-        <h3>Montages des meubles</h3>
-        <p>Montage et démontage de meubles. Avec Zeka Service, une solution rapide et efficace !</p>
-      </div>
-      <div class="card">
-        <h3>Peinture</h3>
-        <p>Zeka service vous fournit des services de peinture à l’intérieur et à l’extérieur.</p>
+      <div class="services-cta">
+        <button class="btn-primary">Découvrir tous les services</button>
       </div>
     </div>
   </section>
@@ -108,71 +142,102 @@ window.addEventListener('scroll', () => {
     </div>
   </section>
 
-  <section id="stats-contact" class="stats-contact">
+  <section id="contact" class="contact">
     <div class="container">
-      <div class="stats">
-        <h2>Découvrez les quelques chiffres qui nous caractérisent</h2>
-        <div class="grid">
-          <div class="stat">
-            <h3>2</h3>
-            <p>collaborateurs</p>
+      <h2 class="contact-title">Restons en contact</h2>
+      <p class="contact-intro">
+        Une question, un projet ou simplement envie d’échanger ?
+        Notre équipe familiale est à votre écoute.
+      </p>
+      <div class="contact-grid">
+        <div class="contact-details">
+          <div class="info-item">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
+            </svg>
+            <p><strong>Adresse</strong><br>CH-1006 Lausanne</p>
           </div>
-          <div class="stat">
-            <h3>20</h3>
-            <p>ans d'expérience</p>
+          <div class="info-item">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M6.6 10.8l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.3 2.4 1 3.5 2.1 1.1 1.1 1.8 2.3 2.1 3.5.1.4 0 .8-.3 1.1l-2.2 2.2c-.4.4-1 .5-1.5.3-1.7-.6-3.5-2.4-4.1-4.1-.2-.5-.1-1.1.3-1.5z"/>
+            </svg>
+            <p>
+              <strong>Téléphone</strong><br>
+              <a href="tel:+41797898848">+41 79 789 88 48</a>
+            </p>
           </div>
-          <div class="stat">
-            <h3>+ 500</h3>
-            <p>projets terminés</p>
-          </div>
-          <div class="stat">
-            <h3>2010</h3>
-            <p>fondation</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="contact-section">
-        <h2>N’hésitez pas à nous contacter pour tout renseignement</h2>
-        <div class="grid contact-grid">
-          <div class="contact-form">
-            <h3>Contact / Devis</h3>
-            <form>
-              <input type="text" placeholder="Prénom et nom*" required>
-              <input type="email" placeholder="E-mail*" required>
-              <input type="tel" placeholder="Téléphone*" required>
-              <textarea placeholder="Message*" rows="4" required></textarea>
-              <button type="submit">Envoyer</button>
-            </form>
-          </div>
-          <div class="contact-info">
-            <h3>Coordonnées</h3>
-            <p><strong>Shefki Zeka</strong></p>
-            <p>CH-1006 Lausanne</p>
-            <p><a href="tel:+41797898848">+41 79 789 88 48</a></p>
-            <p><a href="mailto:info@zeka-service.ch">info@zeka-service.ch</a></p>
-            <p>Notre équipe est à votre disposition pour vous accompagner dans votre projet et répondre à toutes vos questions.</p>
+          <div class="info-item">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+            <p>
+              <strong>Email</strong><br>
+              <a href="mailto:info@zeka-service.ch">info@zeka-service.ch</a>
+            </p>
           </div>
         </div>
+        <form class="contact-form" novalidate>
+          <h3 class="form-title">Envoyez-nous un message</h3>
+          <label>
+            Prénom et nom*
+            <input type="text" required aria-required="true" />
+          </label>
+          <label>
+            E-mail*
+            <input type="email" required aria-required="true" />
+          </label>
+          <label>
+            Téléphone
+            <input type="tel" />
+          </label>
+          <label>
+            Message*
+            <textarea rows="4" required aria-required="true"></textarea>
+          </label>
+          <button type="submit" class="btn-primary btn-contact">Envoyer</button>
+        </form>
       </div>
     </div>
   </section>
 
-  <footer class="footer">
+  <footer id="footer" class="footer-enhanced">
     <div class="container">
-      <span>© 2024 ZEKA Services Sàrl</span>
-      <nav class="nav">
-        <a href="#accueil">Accueil</a>
-        <a href="#about">À propos</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <h2 class="footer-title">Construisons l’avenir ensemble</h2>
+      <p class="footer-intro">
+        ZEKA Services, c’est la promesse d’un accompagnement sur-mesure, basé sur la confiance, l’expertise et la proximité.
+      </p>
+      <div class="footer-content">
+        <div class="footer-item">
+          <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zm0 7l-10 5 10 5 10-5-10-5z"/>
+          </svg>
+          <h3 class="footer-subtitle">Nos valeurs</h3>
+          <p>Confiance, Qualité, Proximité</p>
+        </div>
+        <div class="footer-item">
+          <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M3 3h18v4H3V3zm0 6h18v12H3V9z"/>
+          </svg>
+          <h3 class="footer-subtitle">Notre mission</h3>
+          <p>Transformer vos espaces avec passion et professionnalisme.</p>
+        </div>
+        <div class="footer-item">
+          <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/>
+          </svg>
+          <h3 class="footer-subtitle">Notre équipe</h3>
+          <p>Une famille passionnée, à votre service depuis 2010.</p>
+        </div>
+      </div>
+      <div class="footer-cta">
+        <a href="#contact" class="btn-secondary">Contactez-nous</a>
+      </div>
+      <p class="footer-copy">© 2024 ZEKA Services Sàrl — Tous droits réservés</p>
     </div>
   </footer>
 </template>
 
 <style scoped>
-
 * {
   margin: 0;
   padding: 0;
@@ -209,19 +274,26 @@ body {
   border-radius: 50%;
   overflow: hidden;
 }
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .nav {
   display: flex;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 .nav a {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
   color: var(--white);
   text-decoration: none;
   font-weight: 500;
-  font-size: 1rem;
-  transition: color 0.3s ease;
+  transition: background 0.3s, color 0.3s;
 }
 .nav a:hover {
-  color: var(--yellow);
+  background: rgba(244, 197, 66, 0.1);
+  color: var(--teal);
 }
 
 /* Hero */
@@ -269,30 +341,104 @@ body {
   background: #e5b731;
 }
 
-/* Titres et grilles */
-h2 {
-  margin: 2rem 0 1rem;
-  color: var(--teal);
-  text-align: center;
-}
-.grid {
-  display: grid;
-  gap: 1rem;
-}
-.services .grid {
-  grid-template-columns: 1fr;
-}
-
-/* Cartes */
-.card {
+/* Section Who We Are */
+.who-we-are {
+  padding: 4rem 1rem;
   background: var(--white);
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.who-we-are h2 {
   text-align: center;
+  font-size: 2.5rem;
+  color: var(--teal);
+  margin-bottom: 1rem;
+}
+.who-we-are p {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text);
 }
 
-/* Section À propos améliorée */
+
+/* Section Services */
+.services-modern {
+  padding: 4rem 1rem;
+  background: var(--light);
+}
+
+.services-modern h2 {
+  text-align: center;
+  color: var(--teal);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "a a b"
+    "a a c"
+    "d e f";
+  gap: 1.5rem;
+}
+
+.item-1 { grid-area: a; }
+.item-2 { grid-area: b; }
+.item-3 { grid-area: c; }
+.item-4 { grid-area: d; }
+.item-5 { grid-area: e; }
+.item-6 { grid-area: f; }
+
+.service-item {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.service-icon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  fill: var(--yellow);
+}
+
+.services-cta {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.btn-primary {
+  background: var(--yellow);
+  color: var(--teal);
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #e5b731;
+}
+
+
+/* Section À propos */
 .about {
   padding: 5rem 1rem;
   background: var(--light);
@@ -347,7 +493,7 @@ h2 {
   color: var(--text);
 }
 .about-values li::before {
-  content: "✔";
+  content: "\2713";
   position: absolute;
   left: 0;
   color: var(--yellow);
@@ -356,102 +502,167 @@ h2 {
   text-align: center;
   margin-top: 3rem;
 }
-.btn-primary {
-  background: var(--yellow);
-  color: var(--teal);
-  padding: 0.75rem 2rem;
-  font-weight: 600;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-.btn-primary:hover {
-  background: #e5b731;
+
+/* Section Contact */
+/* Section Contact */
+.contact {
+  padding: 4rem 1rem;
+  background: var(--white);
 }
 
-/* Stats et contact */
-.stats-contact {
-  padding: 4rem 1rem;
-  background-color: var(--light);
-}
-.stats h2,
-.contact-section h2 {
-  text-align: center;
+.contact-title {
+  font-size: 2.5rem;
   color: var(--teal);
-  margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
 }
-.stats .grid,
+
+.contact-intro {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  color: var(--text);
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+/* Layout responsive */
 .contact-grid {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
 }
-.stats .grid {
-  grid-template-columns: repeat(2, 1fr);
-  text-align: center;
+
+/* Bloc informations */
+.contact-details .info-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
-.stat h3 {
-  font-size: 2.5rem;
-  color: var(--yellow);
-  margin-bottom: 0.5rem;
+
+.info-item .icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: var(--teal);
 }
-.stat p {
-  font-size: 1rem;
+
+.contact-details p {
+  margin: 0;
   color: var(--text);
+  font-size: 0.95rem;
 }
-.contact-grid {
-  grid-template-columns: 1fr 1fr;
-  align-items: start;
-}
-.contact-form form {
+
+/* Formulaire */
+.contact-form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
+
+.form-title {
+  font-size: 1.8rem;
+  color: var(--teal);
+  margin-bottom: 0.5rem;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
 .contact-form input,
 .contact-form textarea {
+  width: 100%;
   padding: 0.75rem;
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   border-radius: 4px;
-  font-size: 1rem;
+  font-family: inherit;
 }
-.contact-form button {
-  background: var(--yellow);
-  color: var(--teal);
-  padding: 0.75rem;
+
+/* Bouton d’envoi */
+.btn-contact {
+  width: fit-content;
+  background: var(--teal);
+  color: var(--white);
+  padding: 0.75rem 2rem;
   border: none;
-  font-weight: 700;
   border-radius: 4px;
   cursor: pointer;
   transition: background 0.3s;
 }
-.contact-form button:hover {
-  background: #e5b731;
-}
-.contact-info p {
-  margin: 0.5rem 0;
-  color: var(--text);
-}
-.contact-info a {
-  color: var(--teal);
-  text-decoration: none;
-}
-.contact-info a:hover {
-  text-decoration: underline;
+
+.btn-contact:hover {
+  background: #264f56;
 }
 
-/* Footer */
-.footer {
+/* Footer Enhanced */
+.footer-enhanced {
   background: var(--teal);
   color: var(--white);
-  padding: 1rem;
+  padding: 3rem 1rem;
+}
+.footer-title {
+  font-size: 2rem;
+  font-weight: 700;
   text-align: center;
+  color: var(--yellow);
+}
+.footer-intro {
+  max-width: 600px;
+  margin: 0.5rem auto 2rem;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.footer-item {
+  text-align: center;
+}
+.footer-item .icon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--yellow);
+  margin-bottom: 0.5rem;
+}
+.footer-subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.footer-cta {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.btn-secondary {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  border: 2px solid var(--yellow);
+  border-radius: 4px;
+  color: var(--yellow);
+  font-weight: 600;
+  transition: background 0.3s, color 0.3s;
+}
+.btn-secondary:hover {
+  background: var(--yellow);
+  color: var(--teal);
+}
+.footer-copy {
+  font-size: 0.85rem;
+  text-align: center;
+  opacity: 0.8;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .services .grid {
-    grid-template-columns: 1fr;
+  .services-enhanced {
+    padding: 3rem 1rem;
   }
   .about-title {
     font-size: 2rem;
@@ -459,20 +670,29 @@ h2 {
   .about-intro {
     font-size: 1rem;
   }
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-  .about-img {
-    height: 200px;
-  }
-  .stats .grid,
+  .about-grid,
+  .footer-content,
   .contact-grid {
     grid-template-columns: 1fr;
   }
-}
-@media (min-width: 768px) {
-  .services .grid {
-    grid-template-columns: repeat(3, 1fr);
+  .services-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas: none;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .service-item {
+    width: 100%;
+  }
+  .who-we-are {
+    padding: 3rem 1rem;
+  }
+  .who-we-are h2 {
+    font-size: 2rem;
+  }
+  .who-we-are p {
+    font-size: 1rem;
   }
 }
 </style>
