@@ -1,0 +1,15 @@
+:root {
+    --teal: #2E5D67;
+    --yellow: #F4C542;
+    --light: #F9F7F0;
+    --text: #2A2A2A;
+    --white: #FFFFFF;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text);
+    background-color: var(--light);
+    margin: 0;
+    padding: 0;
+}
