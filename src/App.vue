@@ -665,7 +665,11 @@ body {
 .footer-item {
   text-align: center;
 }
-
+.footer-cta{
+  justify-content: center;
+  display: flex;
+  margin-bottom: 2rem;
+}
 .footer-item .icon {
   width: 2rem;
   height: 2rem;
