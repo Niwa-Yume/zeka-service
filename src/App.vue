@@ -280,12 +280,15 @@ body {
   height: 50px;
   border-radius: 50%;
   overflow: hidden;
+  display: block; /* Ajout pour garantir la visibilité */
 }
 
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; /* Permet le retour à la ligne sur mobile */
+  gap: 1rem; /* Espace entre le logo et la navigation */
 }
 
 .nav {
@@ -757,6 +760,28 @@ body {
   }
 }
 
+/* Media Queries */
+@media (min-width: 576px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .item-1 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .item-3 {
+    grid-column: span 2;
+  }
+}
+
 @media (min-width: 1200px) {
   .services-grid {
     gap: 2.5rem;
@@ -772,6 +797,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  .header .container {
+    padding: 0 1rem;
+  }
+
   .nav {
     display: flex !important;
     position: static;
@@ -779,6 +808,19 @@ body {
     background: transparent;
     box-shadow: none;
     padding: 0;
+    width: 100%;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .nav a {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .logo {
+    height: 40px;
+    margin:auto;
   }
 
   .about-grid,
@@ -789,6 +831,15 @@ body {
 }
 
 @media (max-width: 480px) {
+  .nav {
+    flex-wrap: wrap;
+  }
+
+  .nav a {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+  }
+
   .hero-content h1 {
     font-size: 2rem;
   }
@@ -831,5 +882,4 @@ body {
     background: rgba(0, 0, 0, 0.6);
   }
 }
-
 </style>
