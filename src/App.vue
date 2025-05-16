@@ -457,7 +457,7 @@ body {
 
 
 .item-1 {
-  background-image: url('@/assets/image-service/éléctricité.jpg');
+  background-image: url('@/assets/image-service/eleectricité.jpg');
   background-size: cover;
   background-position: center;
 }
