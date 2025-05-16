@@ -43,46 +43,50 @@ window.addEventListener('scroll', () => {
     </div>
   </section>
 
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="services-title">Nos Services</h2>
+      <div class="services-grid">
+        <div class="service-item item-1">
+          <div class="service-overlay">
+            <h3>Électricité</h3>
+            <p>Installations conformes, éclairage LED, domotique et dépannage 24/7 par nos électriciens certifiés.</p>
+          </div>
+        </div>
+        <div class="service-item item-2">
+          <div class="service-overlay">
+            <h3>Peinture</h3>
+            <p>Revêtements intérieurs et extérieurs anti-corrosion, finitions mates ou satinées, conseils colorimétrie.</p>
+          </div>
+        </div>
+        <div class="service-item item-3">
+          <div class="service-overlay">
+            <h3>Aménagement Extérieur</h3>
+            <p>Création de terrasses, allées et murets avec pierres naturelles, pavés et éléments paysagers.</p>
+          </div>
+        </div>
+        <div class="service-item item-4">
+          <div class="service-overlay">
+            <h3>Déménagement</h3>
+            <p>Organisation complète, emballage professionnel et transport sécurisé de vos biens en Suisse.</p>
+          </div>
+        </div>
+        <div class="service-item item-5">
+          <div class="service-overlay">
+            <h3>Carrelage</h3>
+            <p>Pose soignée de carreaux céramique, grès et marbre pour sols et murs, adaptés à chaque espace.</p>
+          </div>
+        </div>
+        <div class="service-item item-6">
+          <div class="service-overlay">
+            <h3>Plomberie</h3>
+            <p>Installation sanitaire, chauffage et détection de fuites, interventions rapides et garanties.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <div class="services-grid">
-    <div class="service-item item-1">
-      <div class="service-overlay">
-        <h3>Électricité</h3>
-        <p>Installations conformes, éclairage LED, domotique et dépannage 24/7 par nos électriciens certifiés.</p>
-      </div>
-
-    </div>
-    <div class="service-item item-2">
-      <div class="service-overlay">
-        <h3>Peinture</h3>
-        <p>Revêtements intérieurs et extérieurs anti-corrosion, finitions mates ou satinées, conseils colorimétrie.</p>
-      </div>
-    </div>
-    <div class="service-item item-3">
-      <div class="service-overlay">
-        <h3>Aménagement Extérieur</h3>
-        <p>Création de terrasses, allées et murets avec pierres naturelles, pavés et éléments paysagers.</p>
-      </div>
-    </div>
-    <div class="service-item item-4">
-      <div class="service-overlay">
-        <h3>Déménagement</h3>
-        <p>Organisation complète, emballage professionnel et transport sécurisé de vos biens en Suisse.</p>
-      </div>
-    </div>
-    <div class="service-item item-5">
-      <div class="service-overlay">
-        <h3>Carrelage</h3>
-        <p>Pose soignée de carreaux céramique, grès et marbre pour sols et murs, adaptés à chaque espace.</p>
-      </div>
-    </div>
-    <div class="service-item item-6">
-      <div class="service-overlay">
-        <h3>Plomberie</h3>
-        <p>Installation sanitaire, chauffage et détection de fuites, interventions rapides et garanties.</p>
-      </div>
-    </div>
-  </div>
 
   <section id="about" class="about">
     <div class="container">
@@ -141,13 +145,15 @@ window.addEventListener('scroll', () => {
         <div class="contact-details">
           <div class="info-item">
             <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
-              <path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
+              <path
+                  d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5c-1.4 0-2.5-1.1-2.5-2.5S10.6 6.5 12 6.5s2.5 1.1 2.5 2.5S13.4 11.5 12 11.5z"/>
             </svg>
             <p><strong>Adresse</strong><br>CH-1006 Lausanne</p>
           </div>
           <div class="info-item">
             <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
-              <path d="M6.6 10.8l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.3 2.4 1 3.5 2.1 1.1 1.1 1.8 2.3 2.1 3.5.1.4 0 .8-.3 1.1l-2.2 2.2c-.4.4-1 .5-1.5.3-1.7-.6-3.5-2.4-4.1-4.1-.2-.5-.1-1.1.3-1.5z"/>
+              <path
+                  d="M6.6 10.8l2.2-2.2c.3-.3.7-.4 1.1-.3 1.2.3 2.4 1 3.5 2.1 1.1 1.1 1.8 2.3 2.1 3.5.1.4 0 .8-.3 1.1l-2.2 2.2c-.4.4-1 .5-1.5.3-1.7-.6-3.5-2.4-4.1-4.1-.2-.5-.1-1.1.3-1.5z"/>
             </svg>
             <p>
               <strong>Téléphone</strong><br>
@@ -156,7 +162,8 @@ window.addEventListener('scroll', () => {
           </div>
           <div class="info-item">
             <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
-              <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              <path
+                  d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
             </svg>
             <p>
               <strong>Email</strong><br>
@@ -168,15 +175,15 @@ window.addEventListener('scroll', () => {
           <h3 class="form-title">Envoyez-nous un message</h3>
           <label>
             Prénom et nom*
-            <input type="text" required aria-required="true" />
+            <input type="text" required aria-required="true"/>
           </label>
           <label>
             E-mail*
-            <input type="email" required aria-required="true" />
+            <input type="email" required aria-required="true"/>
           </label>
           <label>
             Téléphone
-            <input type="tel" />
+            <input type="tel"/>
           </label>
           <label>
             Message*
@@ -192,7 +199,8 @@ window.addEventListener('scroll', () => {
     <div class="container">
       <h2 class="footer-title">Construisons l’avenir ensemble</h2>
       <p class="footer-intro">
-        ZEKA Services, c’est la promesse d’un accompagnement sur-mesure, basé sur la confiance, l’expertise et la proximité.
+        ZEKA Services, c’est la promesse d’un accompagnement sur-mesure, basé sur la confiance, l’expertise et la
+        proximité.
       </p>
       <div class="footer-content">
         <div class="footer-item">
@@ -211,7 +219,8 @@ window.addEventListener('scroll', () => {
         </div>
         <div class="footer-item">
           <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
-            <path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/>
+            <path
+                d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"/>
           </svg>
           <h3 class="footer-subtitle">Notre équipe</h3>
           <p>Une famille passionnée, à votre service depuis 2010.</p>
@@ -226,6 +235,14 @@ window.addEventListener('scroll', () => {
 </template>
 
 <style scoped>
+:root {
+  --teal: #2E5D67;
+  --yellow: #F4C542;
+  --light: #F9F7F0;
+  --text: #2A2A2A;
+  --white: #FFFFFF;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -241,7 +258,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-
+  padding: 0 1.5rem;
 }
 
 /* Header */
@@ -254,23 +271,28 @@ body {
   z-index: 1000;
   transition: background 0.3s ease-in-out;
 }
+
 .header.scrolled {
   background: rgba(46, 93, 103, 1);
 }
+
 .logo {
   height: 50px;
   border-radius: 50%;
   overflow: hidden;
 }
+
 .header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .nav {
   display: flex;
   gap: 2rem;
 }
+
 .nav a {
   padding: 0.5rem 1rem;
   border-radius: 4px;
@@ -279,6 +301,7 @@ body {
   font-weight: 500;
   transition: background 0.3s, color 0.3s;
 }
+
 .nav a:hover {
   background: rgba(244, 197, 66, 0.1);
   color: var(--teal);
@@ -293,6 +316,7 @@ body {
   justify-content: center;
   position: relative;
 }
+
 .hero::before {
   content: '';
   position: absolute;
@@ -300,21 +324,25 @@ body {
   background: var(--teal);
   opacity: 0.6;
 }
+
 .hero-content {
   position: relative;
   text-align: center;
   color: var(--white);
   padding: 0 1rem;
 }
+
 .hero-content h1 {
   font-size: 3rem;
   font-weight: 700;
 }
+
 .hero-content p {
   margin: 1rem 0;
   font-size: 1.2rem;
   line-height: 1.5;
 }
+
 .hero-content button {
   background: var(--yellow);
   color: var(--teal);
@@ -325,21 +353,24 @@ body {
   cursor: pointer;
   transition: background 0.3s;
 }
+
 .hero-content button:hover {
   background: #e5b731;
 }
 
-/* Section Who We Are */
+/* Who We Are */
 .who-we-are {
   padding: 4rem 1rem;
   background: var(--white);
 }
+
 .who-we-are h2 {
   text-align: center;
   font-size: 2.5rem;
   color: var(--teal);
   margin-bottom: 1rem;
 }
+
 .who-we-are p {
   max-width: 700px;
   margin: 0 auto;
@@ -349,115 +380,119 @@ body {
   color: var(--text);
 }
 
+/* Services Section */
+.services {
+  padding: 4rem 0;
+  background: var(--white);
+}
 
-/* Section Services */
+.services .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
 
-
-.services-modern h2 {
+.services-title {
   text-align: center;
-  color: var(--teal);
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  color: var(--teal);
+  margin-bottom: 3rem;
 }
 
 .services-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  grid-template-areas:
-    "a a b"
-    "a a c"
-    "d e f";
-  gap: 1.5rem;
-  padding: 0 4rem;
-
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  width: 100%;
 }
 
-.item-1 { grid-area: a; }
-.item-2 { grid-area: b; }
-.item-3 { grid-area: c; }
-.item-4 { grid-area: d; }
-.item-5 { grid-area: e; }
-.item-6 { grid-area: f; }
-
-.service-item {
-  background: var(--white);
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.service-item:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
-}
-
-
-.btn-primary {
-  background: var(--yellow);
-  color: var(--teal);
-  padding: 0.75rem 2rem;
-  border: none;
-  border-radius: 4px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.btn-primary:hover {
-  background: #e5b731;
-}
 .service-item {
   position: relative;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   background-size: cover;
   background-position: center;
-  min-height: 250px;
-  transition: transform 0.3s;
-}
-.service-item:hover {
-  transform: scale(1.03);
+  min-height: 280px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Surcouche pour le texte */
+.service-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
 .service-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.1) 100%);
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 1.5rem;
+  padding: 2rem;
   color: #fff;
+  transition: background 0.3s ease;
 }
+
+.service-item:hover .service-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.2) 100%);
+}
+
 .service-overlay h3 {
-  margin-bottom: 0.5rem;
-  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--yellow);
 }
+
 .service-overlay p {
-  font-size: 0.95rem;
-  line-height: 1.4;
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 100%;
+}
+.item-2,
+.item-6 {
+  grid-column: span 2;
 }
 
-/* Images de fond par service */
-.item-5 { background-image: url('@/assets/image-service/carrelage.jpg'); }
-.item-2 { background-image: url('@/assets/image-service/peinture.jpg'); }
-.item-3 { background-image: url('@/assets/image-service/chantier.jpg'); }
-.item-4 { background-image: url('@/assets/image-service/demenagement.jpg'); }
-.item-1 { background-image: url('@/assets/image-service/éléctricité.jpg'); }
-.item-6 { background-image: url('@/assets/image-service/plomberie.jpg'); }
 
-/* Section À propos */
+.item-1 {
+  background-image: url('@/assets/image-service/éléctricité.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.item-3 {
+  background-image: url('@/assets/image-service/carrelage.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.item-4 {
+  background-image: url('@/assets/image-service/demenagement.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.item-6 {
+  background-image: url('@/assets/image-service/plomberie.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.item-5 {
+  background-image: url('@/assets/image-service/chantier.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.item-2 {
+  background-image: url('@/assets/image-service/peinture.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* About Section */
 .about {
   padding: 5rem 1rem;
   background: var(--light);
 }
+
 .about-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -465,6 +500,7 @@ body {
   text-align: center;
   margin-bottom: 1rem;
 }
+
 .about-intro {
   max-width: 600px;
   margin: 0 auto 3rem;
@@ -472,54 +508,56 @@ body {
   text-align: center;
   color: var(--text);
 }
+
 .about-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 2rem;
 }
+
 .about-item {
   text-align: center;
 }
-.about-item i {
-  font-size: 2rem;
-  color: var(--yellow);
-  margin-bottom: 0.5rem;
-}
+
 .about-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--teal);
   margin-bottom: 0.5rem;
 }
+
 .about-text {
   font-size: 1rem;
   line-height: 1.6;
   color: var(--text);
 }
+
 .about-values {
   list-style: none;
   padding: 0;
   margin: 1rem 0 0;
 }
+
 .about-values li {
   position: relative;
   padding-right: 1.5rem;
   margin-bottom: 0.5rem;
   color: var(--text);
 }
+
 .about-values li::after {
   content: "\2713";
   position: absolute;
   padding-left: 2rem;
   color: var(--yellow);
 }
+
 .about-cta {
   text-align: center;
   margin-top: 3rem;
 }
 
-/* Section Contact */
-/* Section Contact */
+/* Contact Section */
 .contact {
   padding: 4rem 1rem;
   background: var(--white);
@@ -541,17 +579,13 @@ body {
   line-height: 1.5;
 }
 
-/* Layout responsive */
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   align-items: center;
-
 }
 
-/* Bloc informations */
-/* Contact : cartes pour infos de gauche */
 .contact-details .info-item {
   display: flex;
   align-items: center;
@@ -559,29 +593,10 @@ body {
   background: var(--white);
   padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
-  display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.contact-details .info-item .icon {
-  background: var(--yellow);
-  color: var(--teal);
-  width: 2.5rem;
-  height: 2.5rem;
-  padding: 0.5rem;
-  border-radius: 50%;
-  flex-shrink: 0;
-}
-
-.contact-details .info-item p,
-.contact-details .info-item a {
-  margin: 0;
-  color: var(--text);
-  font-size: 0.95rem;
-  line-height: 1.4;
 }
 
 .info-item .icon {
@@ -590,13 +605,6 @@ body {
   fill: var(--teal);
 }
 
-.contact-details p {
-  margin: 0;
-  color: var(--text);
-  font-size: 0.95rem;
-}
-
-/* Formulaire */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -625,7 +633,74 @@ body {
   font-family: inherit;
 }
 
-/* Bouton d’envoi */
+/* Footer */
+.footer-enhanced {
+  background: var(--teal);
+  color: var(--white);
+  padding: 3rem 1rem;
+}
+
+.footer-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--yellow);
+}
+
+.footer-intro {
+  max-width: 600px;
+  margin: 0.5rem auto 2rem;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-item {
+  text-align: center;
+}
+
+.footer-item .icon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--yellow);
+  margin-bottom: 0.5rem;
+}
+
+.footer-subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.footer-copy {
+  font-size: 0.85rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+/* Buttons */
+.btn-primary {
+  background: var(--yellow);
+  color: var(--teal);
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #e5b731;
+}
+
 .btn-contact {
   width: fit-content;
   background: var(--teal);
@@ -641,49 +716,6 @@ body {
   background: #264f56;
 }
 
-/* Footer Enhanced */
-.footer-enhanced {
-  background: var(--teal);
-  color: var(--white);
-  padding: 3rem 1rem;
-}
-.footer-title {
-  font-size: 2rem;
-  font-weight: 700;
-  text-align: center;
-  color: var(--yellow);
-}
-.footer-intro {
-  max-width: 600px;
-  margin: 0.5rem auto 2rem;
-  font-size: 1rem;
-  text-align: center;
-  line-height: 1.5;
-}
-.footer-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
-.footer-item {
-  text-align: center;
-}
-.footer-item .icon {
-  width: 2rem;
-  height: 2rem;
-  fill: var(--yellow);
-  margin-bottom: 0.5rem;
-}
-.footer-subtitle {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-.footer-cta {
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
 .btn-secondary {
   display: inline-block;
   padding: 0.75rem 2rem;
@@ -693,78 +725,107 @@ body {
   font-weight: 600;
   transition: background 0.3s, color 0.3s;
 }
+
 .btn-secondary:hover {
   background: var(--yellow);
   color: var(--teal);
 }
-.footer-copy {
-  font-size: 0.85rem;
-  text-align: center;
-  opacity: 0.8;
-}
 
 /* Responsive */
+@media (min-width: 576px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .item-1 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .item-3 {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .services-grid {
+    gap: 2.5rem;
+  }
+
+  .service-overlay h3 {
+    font-size: 1.75rem;
+  }
+
+  .service-overlay p {
+    font-size: 1.1rem;
+  }
+}
+
 @media (max-width: 768px) {
-  .services-enhanced {
-    padding: 3rem 1rem;
+  .nav {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
   }
-  .about-title {
-    font-size: 2rem;
-  }
-  .about-intro {
-    font-size: 1rem;
-  }
+
   .about-grid,
-  .footer-content,
-  .contact-grid {
+  .contact-grid,
+  .footer-content {
     grid-template-columns: 1fr;
   }
-  .services-grid {
-    grid-template-columns: 1fr;
-    grid-template-areas: none;
-  }
-  .contact-grid {
-    grid-template-columns: 1fr;
-  }
-  .service-item {
-    width: 100%;
-  }
-  .who-we-are {
-    padding: 3rem 1rem;
-  }
-  .who-we-are h2 {
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
     font-size: 2rem;
   }
-  .who-we-are p {
-    font-size: 1rem;
+
+  .hero-content p,
+  .nav a {
+    font-size: 0.9rem;
   }
+
   .services-grid {
-    grid-template-columns: 1fr;
-    grid-template-areas: none;
-    padding: 0 1rem;
+    gap: 1.5rem;
+  }
+
+  .service-item {
+    min-height: 220px;
+  }
+
+  .service-overlay {
+    padding: 1.5rem;
+  }
+
+  .service-overlay h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .service-overlay p {
+    font-size: 0.9rem;
+    line-height: 1.4;
   }
 }
-@media (max-width: 480px) {
-  .services-grid {
-    padding: 0 0.5rem;
-    gap: 1rem;
-  }
-}
-/* iPhone */
+
 @media (max-width: 425px) {
   .service-item {
     min-height: 200px;
   }
+
   .service-overlay {
     padding: 1rem;
     background: rgba(0, 0, 0, 0.6);
   }
-  .service-overlay h3 {
-    font-size: 1.2rem;
-  }
-  .service-overlay p {
-    font-size: 0.9rem;
-    line-height: 1.3;
-  }
 }
+
 </style>
