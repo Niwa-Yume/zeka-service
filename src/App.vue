@@ -47,9 +47,10 @@ window.addEventListener('scroll', () => {
   <div class="services-grid">
     <div class="service-item item-1">
       <div class="service-overlay">
-        <h3>Carrelage</h3>
-        <p>Pose soignée de carreaux céramique, grès et marbre pour sols et murs, adaptés à chaque espace.</p>
+        <h3>Électricité</h3>
+        <p>Installations conformes, éclairage LED, domotique et dépannage 24/7 par nos électriciens certifiés.</p>
       </div>
+
     </div>
     <div class="service-item item-2">
       <div class="service-overlay">
@@ -71,8 +72,8 @@ window.addEventListener('scroll', () => {
     </div>
     <div class="service-item item-5">
       <div class="service-overlay">
-        <h3>Électricité</h3>
-        <p>Installations conformes, éclairage LED, domotique et dépannage 24/7 par nos électriciens certifiés.</p>
+        <h3>Carrelage</h3>
+        <p>Pose soignée de carreaux céramique, grès et marbre pour sols et murs, adaptés à chaque espace.</p>
       </div>
     </div>
     <div class="service-item item-6">
@@ -445,12 +446,12 @@ body {
 }
 
 /* Images de fond par service */
-.item-1 { background-image: url('@/assets/carrelage.jpg'); }
-.item-2 { background-image: url('@/assets/peinture.jpg'); }
-.item-3 { background-image: url('@/assets/exterieur.jpg'); }
-.item-4 { background-image: url('@/assets/demenagement.jpg'); }
-.item-5 { background-image: url('@/assets/electricite.jpg'); }
-.item-6 { background-image: url('@/assets/plomberie.jpg'); }
+.item-5 { background-image: url('@/assets/image-service/carrelage.jpg'); }
+.item-2 { background-image: url('@/assets/image-service/peinture.jpg'); }
+.item-3 { background-image: url('@/assets/image-service/chantier.jpg'); }
+.item-4 { background-image: url('@/assets/image-service/demenagement.jpg'); }
+.item-1 { background-image: url('@/assets/image-service/éléctricité.jpg'); }
+.item-6 { background-image: url('@/assets/image-service/plomberie.jpg'); }
 
 /* Section À propos */
 .about {
@@ -545,13 +546,42 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
+  align-items: center;
+
 }
 
 /* Bloc informations */
+/* Contact : cartes pour infos de gauche */
 .contact-details .info-item {
   display: flex;
   align-items: center;
   gap: 1rem;
+  background: var(--white);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-details .info-item .icon {
+  background: var(--yellow);
+  color: var(--teal);
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.contact-details .info-item p,
+.contact-details .info-item a {
+  margin: 0;
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
 .info-item .icon {
