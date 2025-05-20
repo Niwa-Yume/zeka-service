@@ -195,6 +195,28 @@ window.addEventListener('scroll', () => {
     </div>
   </section>
 
+  <section id="instagram" class="instagram">
+    <div class="container">
+      <h2 class="instagram-title">Suivez-nous sur Instagram</h2>
+      <p class="instagram-intro">Découvrez nos réalisations en temps réel</p>
+      <div class="instagram-feed">
+        <!-- Embed Instagram Feed -->
+        <iframe
+            class="instagram-embed"
+            src="https://www.instagram.com/zekaservices.sarl/embed"
+            frameborder="0"
+            scrolling="no"
+            allowtransparency="true">
+        </iframe>
+      </div>
+      <div class="instagram-cta">
+        <a href="https://www.instagram.com/zekaservices.sarl/" target="_blank" class="btn-secondary">
+          @zekaservices.sarl
+        </a>
+      </div>
+    </div>
+  </section>
+
   <footer id="footer" class="footer-enhanced">
     <div class="container">
       <h2 class="footer-title">Construisons l’avenir ensemble</h2>
@@ -253,6 +275,69 @@ body {
   font-family: 'Poppins', sans-serif;
   color: var(--text);
   background-color: var(--light);
+}
+/* Instagram Section */
+.instagram {
+  padding: 4rem 0;
+  background: var(--light);
+}
+
+.instagram-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--teal);
+  margin-bottom: 1rem;
+}
+
+.instagram-intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+.instagram-feed {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background: var(--white);
+  position: relative;
+}
+
+.instagram-embed {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+.instagram-cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.instagram-cta .btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--white);
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--teal);
+  border: 2px solid var(--teal);
+  transition: all 0.3s ease;
+}
+
+.instagram-cta .btn-secondary:hover {
+  background: var(--teal);
+  color: var(--white);
+  transform: translateY(-2px);
 }
 
 .container {
