@@ -146,7 +146,7 @@ window.addEventListener('scroll', () => {
       </div>
 
       <div class="about-cta">
-        <button class="btn-primary">En savoir plus</button>
+        <a href="#contact" class="btn-secondary" style="margin-left:1rem;">Contact</a>
       </div>
     </div>
   </section>
@@ -494,6 +494,7 @@ body {
 .hero-logo {
   max-width: 320px;
   width: 90%;
+  border-radius: 18px;
   margin: 0 auto 2rem auto;
   display: block;
   background: transparent;
