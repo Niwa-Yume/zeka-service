@@ -25,10 +25,13 @@ window.addEventListener('scroll', () => {
   </header>
 
   <section id="hero" class="hero">
-    <div class="hero-content">
-      <h1>ZEKA Services Sàrl</h1>
-      <p>Aménagement extérieur<br>Rénovation intérieur | Déménagement</p>
-      <button>CONTACTER</button>
+    <div class="hero-glass">
+      <div class="hero-content">
+        <img class="hero-logo" :src="logo" alt="ZEKA Services">
+        <h1>ZEKA Services Sàrl</h1>
+        <p>Aménagement extérieur<br>Rénovation intérieur | Déménagement</p>
+        <button>CONTACTER</button>
+      </div>
     </div>
   </section>
 
@@ -49,26 +52,35 @@ window.addEventListener('scroll', () => {
       <div class="services-grid">
         <div class="service-item item-1">
           <div class="service-overlay">
-            <h3>Électricité</h3>
-            <p>Installations conformes, éclairage LED, domotique et dépannage 24/7 par nos électriciens certifiés.</p>
+            <h3>Entretien de jardin</h3>
+            <p>
+              Entretien toute l’année: tonte de gazon, taille des arbustes, et tout ce qui concerne le jardin sur demande du client.
+            </p>
           </div>
         </div>
         <div class="service-item item-2">
           <div class="service-overlay">
-            <h3>Peinture</h3>
-            <p>Revêtements intérieurs et extérieurs anti-corrosion, finitions mates ou satinées, conseils colorimétrie.</p>
+            <h3>Rénovation tous types d’intérieurs</h3>
+            <p>
+              Peinture, plâtrerie, démolition, façade, etc. sur demande.
+            </p>
           </div>
         </div>
         <div class="service-item item-3">
           <div class="service-overlay">
             <h3>Aménagement Extérieur</h3>
-            <p>Création de terrasses, allées et murets avec pierres naturelles, pavés et éléments paysagers.</p>
+            <p>
+              Création de terrasses, terrassement, maçonnerie, entretien de jardin, plantation, abattage, tout type de clôtures et autres services.
+            </p>
           </div>
         </div>
         <div class="service-item item-4">
           <div class="service-overlay">
             <h3>Déménagement</h3>
-            <p>Organisation complète, emballage professionnel et transport sécurisé de vos biens en Suisse.</p>
+            <p>
+              Tout type de déménagement partout en Suisse et à l’étranger (France, Belgique, Italie, autres pays selon demande).<br>
+              Débarras, livraisons de tout type de marchandise, etc.
+            </p>
           </div>
         </div>
         <div class="service-item item-5">
@@ -86,7 +98,6 @@ window.addEventListener('scroll', () => {
       </div>
     </div>
   </section>
-
 
   <section id="about" class="about">
     <div class="container">
@@ -398,19 +409,48 @@ body {
 /* Hero */
 .hero {
   height: 80vh;
-  background: url('https://source.unsplash.com/1600x900/?construction') center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  background:
+      radial-gradient(ellipse at 60% 40%, rgba(244,197,66,0.25) 0%, transparent 60%),
+      linear-gradient(120deg, #2E5D67 0%, #24C6DC 60%, #F4C542 100%);
+  border-radius: 0 0 32px 32px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  overflow: hidden;
+  margin-top: 40px;
 }
 
 .hero::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: var(--teal);
-  opacity: 0.6;
+  background: rgba(255,255,255,0.10);
+  z-index: 1;
+  pointer-events: none;
+  border-radius: 0 0 32px 32px;
+  mix-blend-mode: lighten;
+}
+
+.hero-glass {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 3rem 2rem;
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid rgba(255,255,255,0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-content {
@@ -445,7 +485,14 @@ body {
 .hero-content button:hover {
   background: #e5b731;
 }
-
+.hero-logo {
+  max-width: 320px;
+  width: 90%;
+  margin: 0 auto 2rem auto;
+  display: block;
+  background: transparent;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.08));
+}
 /* Who We Are */
 .who-we-are {
   padding: 4rem 1rem;
