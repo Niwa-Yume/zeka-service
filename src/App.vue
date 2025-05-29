@@ -188,23 +188,23 @@ window.addEventListener('scroll', () => {
             </p>
           </div>
         </div>
-        <form class="contact-form" novalidate>
+        <form class="contact-form" action="https://formspree.io/f/xnndeevn" method="POST">
           <h3 class="form-title">Envoyez-nous un message</h3>
           <label>
             Prénom et nom*
-            <input type="text" required aria-required="true"/>
+            <input type="text" name="name" required aria-required="true"/>
           </label>
           <label>
             E-mail*
-            <input type="email" required aria-required="true"/>
+            <input type="email" name="email" required aria-required="true"/>
           </label>
           <label>
             Téléphone
-            <input type="tel"/>
+            <input type="tel" name="phone"/>
           </label>
           <label>
             Message*
-            <textarea rows="4" required aria-required="true"></textarea>
+            <textarea name="message" rows="4" required aria-required="true"></textarea>
           </label>
           <button type="submit" class="btn-primary btn-contact">Envoyer</button>
         </form>
