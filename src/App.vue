@@ -30,7 +30,7 @@ window.addEventListener('scroll', () => {
         <img class="hero-logo" :src="logo" alt="ZEKA Services">
         <h1>ZEKA Services Sàrl</h1>
         <p>Aménagement extérieur<br>Rénovation intérieur | Déménagement</p>
-        <button>CONTACTER</button>
+        <a href="#contact" class="btn-primary">CONTACTER</a>
       </div>
     </div>
   </section>
@@ -38,6 +38,12 @@ window.addEventListener('scroll', () => {
   <section id="who-we-are" class="who-we-are">
     <div class="container">
       <h2>Qui sommes-nous&nbsp;?</h2>
+      <img
+          src="@/assets/image%20chantier.jpg"
+          alt="Mini-pelle sur chantier"
+          class="who-image"
+          style="max-width: 60%; border-radius: 12px; margin: 2rem auto; display: block; max-height: 50%;"
+      />
       <p>
         Zeka Services Sàrl est une entreprise familiale suisse fondée en 2010.
         Nous proposons des services d’aménagement extérieur, de rénovation intérieur
