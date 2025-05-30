@@ -39,7 +39,7 @@ window.addEventListener('scroll', () => {
     <div class="container">
       <h2>Qui sommes-nous&nbsp;?</h2>
       <img
-          src="@/assets/image%20chantier.jpg"
+          src="@/assets/image-service/luxury-villa-mallorca-prefabricated-02.jpg"
           alt="Mini-pelle sur chantier"
           class="who-image"
           style="max-width: 60%; border-radius: 12px; margin: 2rem auto; display: block; max-height: 50%;"
@@ -441,23 +441,6 @@ body {
   mix-blend-mode: lighten;
 }
 
-.hero-glass {
-  position: relative;
-  z-index: 2;
-  background: rgba(255, 255, 255, 0.18);
-  border-radius: 24px;
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  padding: 3rem 2rem;
-  max-width: 600px;
-  width: 90%;
-  margin: 0 auto;
-  border: 1px solid rgba(255,255,255,0.25);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .hero-content {
   position: relative;
@@ -599,7 +582,7 @@ body {
 
 
 .item-1 {
-  background-image: url('@/assets/image-service/electricite.jpg');
+  background-image: url('@/assets/image-service/la-haie-architecturee-entre-maitrise-esthetique-et-defi-ecologique-scaled.webp');
   background-size: cover;
   background-position: center;
 }
