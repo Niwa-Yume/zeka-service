@@ -27,7 +27,6 @@ window.addEventListener('scroll', () => {
   <section id="hero" class="hero">
     <div class="hero-glass">
       <div class="hero-content">
-        <img class="hero-logo" :src="logo" alt="ZEKA Services">
         <h1>ZEKA Services Sàrl</h1>
         <p>Aménagement extérieur<br>Rénovation intérieur | Déménagement</p>
         <a href="#contact" class="btn-primary">CONTACTER</a>
@@ -419,9 +418,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  background:
-      radial-gradient(ellipse at 60% 40%, rgba(244,197,66,0.25) 0%, transparent 60%),
-      linear-gradient(120deg, #2E5D67 0%, #24C6DC 60%, #F4C542 100%);
+  background: var(--teal);
   border-radius: 0 0 32px 32px;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
   backdrop-filter: blur(18px) saturate(180%);
