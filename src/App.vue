@@ -1,5 +1,6 @@
 <script setup>
 import logo from '@/assets/logo.jpg'
+import logoV2 from '@/assets/logoV2.jpg'
 
 window.addEventListener('scroll', () => {
   const header = document.querySelector('.header');
@@ -35,7 +36,7 @@ window.addEventListener('scroll', () => {
     ></video>
     <div class="hero-glass">
       <div class="hero-content">
-        <h1>ZEKA Services Sàrl</h1>
+        <img class="hero-logo" :src="logoV2" alt="ZEKA Services Sàrl">
         <p>Aménagement extérieur<br>Rénovation intérieur | Déménagement</p>
         <a href="#contact" class="btn-primary">CONTACTER</a>
       </div>
@@ -486,10 +487,11 @@ body {
   background: #e5b731;
 }
 .hero-logo {
-  max-width: 320px;
+  max-width: 350px;
   width: 90%;
-  border-radius: 18px;
-  margin: 0 auto 2rem auto;
+  height: auto;
+  border-radius: 15px;
+  margin: auto;
   display: block;
   background: transparent;
   filter: drop-shadow(0 2px 8px rgba(0,0,0,0.08));
