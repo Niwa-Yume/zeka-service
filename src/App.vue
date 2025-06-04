@@ -1,6 +1,6 @@
 <script setup>
 import logo from '@/assets/logo.jpg'
-import logoV2 from '@/assets/logoV2.jpg'
+import logoV2 from '@/assets/logoV2.png'
 
 window.addEventListener('scroll', () => {
   const header = document.querySelector('.header');
