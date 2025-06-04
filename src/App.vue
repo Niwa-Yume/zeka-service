@@ -25,6 +25,14 @@ window.addEventListener('scroll', () => {
   </header>
 
   <section id="hero" class="hero">
+    <video
+        class="hero-bg-video"
+        src="@/assets/214661_small.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+    ></video>
     <div class="hero-glass">
       <div class="hero-content">
         <h1>ZEKA Services Sàrl</h1>
@@ -437,7 +445,13 @@ body {
   border-radius: 0 0 32px 32px;
   mix-blend-mode: lighten;
 }
-
+.hero-bg-video {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  pointer-events: none;
+}
 
 .hero-content {
   position: relative;
