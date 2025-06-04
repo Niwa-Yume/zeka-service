@@ -487,7 +487,7 @@ body {
   background: #e5b731;
 }
 .hero-logo {
-  max-width: 350px;
+  max-width: 750px;
   width: 90%;
   height: auto;
   border-radius: 15px;
