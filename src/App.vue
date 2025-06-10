@@ -595,7 +595,7 @@ body {
 
 
 .item-1 {
-  background-image: url('@/assets/image-service/pexels-le-thanh-huyen-1056408622-20727438.jpg');
+  background-image: url('@/assets/image-service/Image-header-blog-5.png');
   background-size: cover;
   background-position: center;
 }
@@ -1016,17 +1016,17 @@ body {
     padding: 1rem;
     background: rgba(0, 0, 0, 0.6);
   }
-}@media (min-width: 370px) {
+}@media (max-width: 430px) {
   .item-2,
   .item-6 {
-    grid-column: span 2;
+    grid-column: span 1;
   }
   .item-1 {
     grid-column: span 1;
     grid-row: span 1;
   }
   .item-3 {
-    grid-column: span 2;
+    grid-column: span 1;
   }
 }
 </style>
