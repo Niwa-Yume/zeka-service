@@ -595,7 +595,7 @@ body {
 
 
 .item-1 {
-  background-image: url('@/assets/image-service/la-haie-architecturee-entre-maitrise-esthetique-et-defi-ecologique-scaled.webp');
+  background-image: url('@/assets/image-service/pexels-le-thanh-huyen-1056408622-20727438.jpg');
   background-size: cover;
   background-position: center;
 }
