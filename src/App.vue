@@ -1016,5 +1016,17 @@ body {
     padding: 1rem;
     background: rgba(0, 0, 0, 0.6);
   }
+}@media (min-width: 370px) {
+  .item-2,
+  .item-6 {
+    grid-column: span 2;
+  }
+  .item-1 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  .item-3 {
+    grid-column: span 2;
+  }
 }
 </style>
