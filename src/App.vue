@@ -30,7 +30,7 @@ window.addEventListener('scroll', () => {
   <section id="hero" class="hero">
     <video
         class="hero-bg-video"
-        src="@/assets/istockphoto-2151897296-640_adpp_is.mp4"
+        src="@/assets/video/7578543-uhd_3840_2160_30fps.mp4"
         autoplay
         muted
         loop
