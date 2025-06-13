@@ -161,6 +161,28 @@ window.addEventListener('scroll', () => {
     </div>
   </section>
 
+  <section id="instagram" class="instagram">
+    <div class="container">
+      <h2 class="instagram-title">Suivez-nous sur Instagram</h2>
+      <p class="instagram-intro">Découvrez nos réalisations en temps réel</p>
+      <div class="instagram-feed">
+        <!-- Embed Instagram Feed -->
+        <iframe
+            class="instagram-embed"
+            src="https://www.instagram.com/zekaservices.sarl/embed"
+            frameborder="0"
+            scrolling="no"
+            allowtransparency="true">
+        </iframe>
+      </div>
+      <div class="instagram-cta">
+        <a href="https://www.instagram.com/zekaservices.sarl/" target="_blank" class="btn-secondary">
+          @zekaservices.sarl
+        </a>
+      </div>
+    </div>
+  </section>
+
   <section id="contact" class="contact">
     <div class="container">
       <h2 class="contact-title">Restons en contact</h2>
@@ -217,28 +239,6 @@ window.addEventListener('scroll', () => {
           </label>
           <button type="submit" class="btn-primary btn-contact">Envoyer</button>
         </form>
-      </div>
-    </div>
-  </section>
-
-  <section id="instagram" class="instagram">
-    <div class="container">
-      <h2 class="instagram-title">Suivez-nous sur Instagram</h2>
-      <p class="instagram-intro">Découvrez nos réalisations en temps réel</p>
-      <div class="instagram-feed">
-        <!-- Embed Instagram Feed -->
-        <iframe
-            class="instagram-embed"
-            src="https://www.instagram.com/zekaservices.sarl/embed"
-            frameborder="0"
-            scrolling="no"
-            allowtransparency="true">
-        </iframe>
-      </div>
-      <div class="instagram-cta">
-        <a href="https://www.instagram.com/zekaservices.sarl/" target="_blank" class="btn-secondary">
-          @zekaservices.sarl
-        </a>
       </div>
     </div>
   </section>
