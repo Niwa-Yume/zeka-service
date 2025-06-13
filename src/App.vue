@@ -43,6 +43,22 @@ window.addEventListener('scroll', () => {
       </div>
     </div>
   </section>
+  <section id="hero" class="hero">
+    <video
+        class="hero-bg-video"
+        src="@/assets/video/13856316_3840_2160_60fps.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+    ></video>
+    <div class="hero-glass">
+      <div class="hero-content">
+        <img class="hero-logo" :src="logoV4" alt="ZEKA Services Sàrl">
+        <a href="#contact" class="btn-primary">CONTACTER</a>
+      </div>
+    </div>
+  </section>
 
   <section id="who-we-are" class="who-we-are">
     <div class="container">
