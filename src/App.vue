@@ -1016,7 +1016,7 @@ body {
     padding: 1rem;
     background: rgba(0, 0, 0, 0.6);
   }
-}@media (max-width: 430px) {
+}@media (max-width: 450px) {
   .item-2,
   .item-6 {
     grid-column: span 1;
